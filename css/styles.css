@@ -57,3 +57,7 @@ h1, h2, h3 {
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
+
+.hero {
+  display: flex;
+}
