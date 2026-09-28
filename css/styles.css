@@ -60,4 +60,37 @@ h1, h2, h3 {
 
 .hero {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  min-height: 520px;
+  padding: 48px 32px;
+  background: #0B5CAD;
+  color: #F4F1EA;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 96px;
+  max-width: 12ch;
+}
+
+.eyebrow {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.lede {
+  max-width: 34ch;
+}
+
+.button {
+  padding: 12px 22px;
+  background: #F2B705;
+  color: #111111;
+  font-weight: 600;
+  text-decoration: none;
 }
