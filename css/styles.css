@@ -26,3 +26,34 @@ h1, h2, h3 {
   text-transform: uppercase;
   line-height: 1;
 }
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 32px;
+  background: #111111;
+}
+
+.logo {
+  font-family: 'Anton', Impact, sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #F4F1EA;
+  text-decoration: none;
+}
+
+.site-header ul {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+
+.site-header ul a {
+  color: #F4F1EA;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
