@@ -1,0 +1,28 @@
+/* My colors. Write these down, you type them a lot.
+   ink     #111111
+   paper   #F4F1EA
+   bone    #E6E0D4
+   blue    #0B5CAD
+   orange  #E0592A
+   yellow  #F2B705  */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #F4F1EA;
+  color: #111111;
+  font-family: 'Work Sans', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+h1, h2, h3 {
+  font-family: 'Anton', Impact, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1;
+}
