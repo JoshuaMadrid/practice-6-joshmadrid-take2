@@ -94,3 +94,21 @@ h1, h2, h3 {
   font-weight: 600;
   text-decoration: none;
 }
+
+.page {
+  display: grid;
+  grid-template: auto / 2fr 1fr;
+  gap: 48px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 72px 32px;
+}
+
+.page h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.people {
+  grid-column: span 2;
+}
